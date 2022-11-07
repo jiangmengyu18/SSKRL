@@ -64,7 +64,7 @@ class CA_layer(nn.Module):
         return x[0] * att
 
 
-class DPCB(nn.Module):
+class DPKB(nn.Module):
     def __init__(self, nf1, nf2, ksize1=3, ksize2=1):
         super().__init__()
 
@@ -111,11 +111,11 @@ class DPCB(nn.Module):
         return x
 
 
-class DPCG(nn.Module):
+class DPKG(nn.Module):
     def __init__(self, nf1, nf2, ksize1, ksize2, nb):
         super().__init__()
 
-        self.body = nn.Sequential(*[DPCB(nf1, nf2, ksize1, ksize2) for _ in range(nb)])
+        self.body = nn.Sequential(*[DPKB(nf1, nf2, ksize1, ksize2) for _ in range(nb)])
 
     def forward(self, x):
         y = self.body(x)
@@ -124,9 +124,9 @@ class DPCG(nn.Module):
         return y
 
 
-class Restorer(nn.Module):
+class DKSR(nn.Module):
     def __init__(self, args):
-        super(Restorer, self).__init__()
+        super(DKSR, self).__init__()
         in_nc = 3
         nf = 64
         ng = 5
@@ -143,7 +143,7 @@ class Restorer(nn.Module):
         self.head1 = nn.Conv2d(in_nc, nf, 3, stride=1, padding=1)
         self.head2 = nn.Conv2d(256, nf, 1, 1, 0)
 
-        body = [DPCG(nf, nf, 3, 1, nb) for _ in range(ng)]
+        body = [DPKG(nf, nf, 3, 1, nb) for _ in range(ng)]
         self.body = nn.Sequential(*body)
 
         self.fusion = nn.Conv2d(nf, nf, 3, 1, 1)
@@ -272,7 +272,7 @@ class BlindSR(nn.Module):
         super(BlindSR, self).__init__()
 
         # Generator
-        self.G = Restorer(args)
+        self.G = DKSR(args)
 
         # Encoder
         self.E = SimSiam(args=args, base_encoder=Encoder)

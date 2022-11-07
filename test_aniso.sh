@@ -125,7 +125,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='4' \
-               --resume=591 \
+               --resume=600 \
                --blur_type='aniso_gaussian' \
                --blur_kernel=21 \
                --theta="0,45,90,135,0,45,90,135" \
@@ -140,7 +140,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='4' \
-               --resume=591 \
+               --resume=600 \
                --blur_type='aniso_gaussian' \
                --blur_kernel=21 \
                --theta="0,45,90,135,0,45,90,135" \
@@ -155,7 +155,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='4' \
-               --resume=591 \
+               --resume=600 \
                --blur_type='aniso_gaussian' \
                --blur_kernel=21 \
                --theta="0,45,90,135,0,45,90,135" \
@@ -170,7 +170,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='4' \
-               --resume=591 \
+               --resume=600 \
                --blur_type='aniso_gaussian' \
                --blur_kernel=21 \
                --theta="0,45,90,135,0,45,90,135" \
@@ -185,7 +185,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='4' \
-               --resume=591 \
+               --resume=600 \
                --blur_type='aniso_gaussian' \
                --blur_kernel=21 \
                --theta="0,45,90,135,0,45,90,135" \
@@ -200,7 +200,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='4' \
-               --resume=591 \
+               --resume=600 \
                --blur_type='aniso_gaussian' \
                --blur_kernel=21 \
                --theta="0,45,90,135,0,45,90,135" \
@@ -215,7 +215,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='4' \
-               --resume=591 \
+               --resume=600 \
                --blur_type='aniso_gaussian' \
                --blur_kernel=21 \
                --theta="0,45,90,135,0,45,90,135" \
@@ -230,7 +230,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='4' \
-               --resume=591 \
+               --resume=600 \
                --blur_type='aniso_gaussian' \
                --blur_kernel=21 \
                --theta="0,45,90,135,0,45,90,135" \

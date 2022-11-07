@@ -5,7 +5,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='2' \
-               --resume=563 \
+               --resume=600 \
                --blur_type='iso_gaussian' \
                --noise_test=0.0 \
                --sig="0.8,0.914,1.03,1.14,1.26,1.37,1.48,1.6" \
@@ -17,7 +17,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='2' \
-               --resume=563 \
+               --resume=600 \
                --blur_type='iso_gaussian' \
                --noise_test=0.0 \
                --sig="0.8,0.914,1.03,1.14,1.26,1.37,1.48,1.6" \
@@ -29,7 +29,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='2' \
-               --resume=563 \
+               --resume=600 \
                --blur_type='iso_gaussian' \
                --noise_test=0.0 \
                --sig="0.8,0.914,1.03,1.14,1.26,1.37,1.48,1.6" \
@@ -41,7 +41,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='2' \
-               --resume=563 \
+               --resume=600 \
                --blur_type='iso_gaussian' \
                --noise_test=0.0 \
                --sig="0.8,0.914,1.03,1.14,1.26,1.37,1.48,1.6" \
@@ -53,7 +53,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='3' \
-               --resume=584 \
+               --resume=600 \
                --blur_type='iso_gaussian' \
                --noise_test=0.0 \
                --sig="1.35,1.5,1.65,1.8,1.95,2.1,2.25,2.40" \
@@ -65,7 +65,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='3' \
-               --resume=584 \
+               --resume=600 \
                --blur_type='iso_gaussian' \
                --noise_test=0.0 \
                --sig="1.35,1.5,1.65,1.8,1.95,2.1,2.25,2.40" \
@@ -77,7 +77,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='3' \
-               --resume=584 \
+               --resume=600 \
                --blur_type='iso_gaussian' \
                --noise_test=0.0 \
                --sig="1.35,1.5,1.65,1.8,1.95,2.1,2.25,2.40" \
@@ -89,7 +89,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='3' \
-               --resume=584 \
+               --resume=600 \
                --blur_type='iso_gaussian' \
                --noise_test=0.0 \
                --sig="1.35,1.5,1.65,1.8,1.95,2.1,2.25,2.40" \
@@ -101,7 +101,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='4' \
-               --resume=473 \
+               --resume=600 \
                --blur_type='iso_gaussian' \
                --noise_test=0.0 \
                --sig="1.8,2,2.2,2.4,2.6,2.8,3.0,3.2" \
@@ -113,7 +113,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='4' \
-               --resume=473 \
+               --resume=600 \
                --blur_type='iso_gaussian' \
                --noise_test=0.0 \
                --sig="1.8,2,2.2,2.4,2.6,2.8,3.0,3.2" \
@@ -125,7 +125,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='4' \
-               --resume=473 \
+               --resume=600 \
                --blur_type='iso_gaussian' \
                --noise_test=0.0 \
                --sig="1.8,2,2.2,2.4,2.6,2.8,3.0,3.2" \
@@ -137,7 +137,7 @@ python test.py --test_only \
                --model='blindsr' \
                --mode='s-fold' \
                --scale='4' \
-               --resume=473 \
+               --resume=600 \
                --blur_type='iso_gaussian' \
                --noise_test=0.0 \
                --sig="1.8,2,2.2,2.4,2.6,2.8,3.0,3.2" \
